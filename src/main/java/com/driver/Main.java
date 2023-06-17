@@ -2,15 +2,11 @@ package com.driver;
 
 public class Main
 {
-    private String name;
-    //getter method for name
-    public String getName()
+    public static void main(String[] args)
     {
-        return name;
-    }
-    //setter method for name
-    public void setName(String name){
-        this.name=name;
+        RWOnly s=new RWOnly();
+        s.setName("Ramesh");
+        System.out.println(s.getName());
     }
 
 }

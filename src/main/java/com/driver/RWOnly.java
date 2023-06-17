@@ -2,11 +2,16 @@ package com.driver;
 
 public class RWOnly
 {
-    public static void main(String[] args)
+    private String name;
+    //getter method for name
+    public String getName()
     {
-        Main s=new Main();
-        s.setName("Ramesh");
-        System.out.println(s.getName());
+        return name;
     }
+    //setter method for name
+    public void setName(String name){
+        this.name=name;
+    }
+
     
 }
